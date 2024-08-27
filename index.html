@@ -29,6 +29,9 @@
                         text_second_color :"rgb(115, 115, 115);",
                         button_2nd_color:"rgba(171, 239, 95, 0.5);",
                         work_box1:"rgb(231, 193, 211);",
+                        work_box2:"rgb(239, 218, 110);",
+                        work_box3:"rgb(164, 218, 195);",
+                        work_box4:"rgb(119, 170, 234);",
                     },
                     fontFamily: {
                         Manrope: 'Manrope',
@@ -55,7 +58,7 @@
 </head>
 <body>
     <header>
-        <header class=" font-poppins" >
+        <header class="Manrope" >
 
             <!-- nav bar part here -->
              <div class="flex">
@@ -130,25 +133,76 @@
             <h4 class=" text-xl mb-2 font-semibold">Concept</h4>
             <p>The barn house captivates with its blend of rustic charm and modern.</p>
           </div>
-          <div class="w-full shadow-xl bg-work_box1 py-5 px-5 mt-10 rounded-xl">
-            <img class="mb-2" src="./assets/vision.png" alt="">
-            <h4 class=" text-xl mb-2 font-semibold">Concept</h4>
+          <div class="w-full shadow-xl bg-work_box2 py-5 px-5 mt-10 rounded-xl">
+            <img class="mb-2" src="./assets/flow-chart.png" alt="">
+            <h4 class=" text-xl mb-2 font-semibold">Design Process</h4>
             <p>The barn house captivates with its blend of rustic charm and modern.</p>
           </div>
-          <div class="w-full shadow-xl bg-work_box1 py-5 px-5 mt-10 rounded-xl">
-            <img class="mb-2" src="./assets/vision.png" alt="">
-            <h4 class=" text-xl mb-2 font-semibold">Concept</h4>
+          <div class="w-full shadow-xl bg-work_box3 py-5 px-5 mt-10 rounded-xl">
+            <img class="mb-2" src="./assets/commercial.png" alt="">
+            <h4 class=" text-xl mb-2 font-semibold">Supervision</h4>
             <p>The barn house captivates with its blend of rustic charm and modern.</p>
           </div>
-          <div class="w-full shadow-xl bg-work_box1 py-5 px-5 mt-10 rounded-xl">
-            <img class="mb-2" src="./assets/vision.png" alt="">
-            <h4 class=" text-xl mb-2 font-semibold">Concept</h4>
+          <div class="w-full shadow-xl bg-work_box4 py-5 px-5 mt-10 rounded-xl">
+            <img class="mb-2" src="./assets/budget-planning.png" alt="">
+            <h4 class=" text-xl mb-2 font-semibold">Budget Planning</h4>
             <p>The barn house captivates with its blend of rustic charm and modern.</p>
           </div>
   
         </div>
        </div>
     </section> 
+   
+<!-- Our Latest Portfolio started -->
+    <section class="bg-white mt-8">
+      <div class="w-11/12 mx-auto">
+        <div class=" text-center ">
+          <button class="  px-5 py-2 rounded-full bg-button_2nd_color text-black mt-4">
+            <i class="font-[8px]  p-2 rounded-full ml-1  text-black  fa-solid fa-arrow-right"></i>Explore our Latest works
+        </button>
+        </div>
+        <h3 class=" text-center text-4xl md:w-1/2 md:text-5xl  font-extrabold mx-auto">Our Latest Portfolio</h3>
+        <p class="text-text_second_color text-center mt-5 md:w-1/2 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents. </p>
+        <div class="main-content-box px-2  md:grid md:grid-cols-12 gap-4">
+
+          <!-- 1 -->
+           <div class="box-1 my-5 md:my-0 md:flex  gap-3  border-2 rounded-xl p-3 col-span-9">
+              <img class="w-full md:w-64" src="./assets/img1.png" alt="">
+              <div class="content">
+                  <h1 class="font-bold my-2 text-xl">Commercial</h1>
+                  <p class="text-clr_pera md:w-2/3 md:py-3">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                  <button class="bg-clr_gray py-2  font-semibold flex gap-2 items-center"> View Details
+                      <i class="bg-clr_primary p-2 -rotate-45 text-[10px] rounded-full fa-solid fa-arrow-right"></i>
+                  </button>
+              </div>
+           </div>
+           <!-- 2 -->
+           <div class="box-2 border-2 px-3 py-3 md:py-0 rounded-xl flex justify-center items-center md:col-span-3">
+              <img class="" src="./assets/img2.png" alt="">
+           </div>
+           <!-- 3 -->
+           <div class="box-3 border-2 rounded-xl my-3 md:my-0 flex items-center justify-center  p-3 md:col-span-3">
+              <img class="w-full" src="./assets/img3.png" alt="">
+            </div>
+            <!-- 4 -->
+            <div class="box-4 md:flex items-center gap-4 my-4 md:my-0  r border-2 rounded-xl p-3 md:col-span-6">
+              <div class="w-full md:w-72" ><img class="w-full md:w-72"  src="./assets/img4.png" alt=""></div>
+              <div class="content">
+                  <h1 class="font-bold my-2 text-xl">Commercial</h1>
+                  <p class="text-clr_pera md:my-3">The barn house captivates with its blend of rustic charm and modern.</p>
+                  <button class="bg-clr_gray py-2  font-semibold flex gap-2 items-center"> View Details
+                      <i class="bg-clr_primary p-2 -rotate-45 text-[10px] rounded-full fa-solid fa-arrow-right"></i>
+                  </button>
+              </div>
+           </div>
+           <!-- 5 -->
+           <div class="box-5 border-2 rounded-xl my-3 md:my-0 flex items-center justify-center  p-3 md:col-span-3">
+              <img class="w-full" src="./assets/img5.png" alt="">
+            </div>
+       </div>
+
+    </section>
+<!-- Our Latest Portfolio end -->
 
     <!-- Read Our Articles and News part here -->
      <section class="bg-secondary mt-8">
@@ -263,7 +317,7 @@
     <!-- Read Our Articles and News part here  end -->
 
     <!-- input part here -->
-    <section class="contact py-10">
+    <section class="contact py-10 mt-8">
       
 
       <div class=" py-10 md:pb-24">

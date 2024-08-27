@@ -34,14 +34,23 @@
                         Manrope: 'Manrope',
                     },
                     backgroundImage: {
-                        leaf1: "url('./images/leaf01.png')",
-                        call_to_action: "url('./images/call.jpg')",
+                        leaf1:" url(' ./')",
+                        call_to_action: "url('./assets/bg.jpg')",
                         testimonials: "url('./images/testimonials.jpg')",
                     },
                 },
             },
         }
     </script>
+    <style>
+      .contact{
+          background-image: url("./assets/bg.jpg");
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+      }
+    </style>
 
 </head>
 <body>
@@ -251,7 +260,34 @@
 
      </section>
 
-  
+    <!-- Read Our Articles and News part here  end -->
+
+    <!-- input part here -->
+    <section class="contact py-10">
+      
+
+      <div class=" py-10 md:pb-24">
+        <div class=" text-center ">
+          <button class="  px-5 py-2 rounded-full bg-button_2nd_color text-black mt-4">
+            <i class="font-[8px]  p-2 rounded-full ml-1  text-black  fa-solid fa-arrow-right"></i>Let’s Connect
+        </button>
+        </div>
+          <h1 class="text-2xl text-center mt-3 md:text-4xl   font-extrabold">Let’s Discuss Next Project</h1>
+          <p class="text-text_second_color mt-4 mx-auto md:w-2/5 text-center px-3 ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <form  class="md:w-6/12 grid gap-3 px-4 mt-10 md:grid-cols-2 mx-auto md:gap-y-6">
+
+              <input class="p-3 rounded-full outline-none focus:ring focus:ring-clr_secondary " type="text " placeholder="Last Name*" required>
+              <input class="p-3 rounded-full outline-none focus:ring focus:ring-clr_secondary " type="text " placeholder="First Name*">
+              <input class="p-3 rounded-full outline-none focus:ring focus:ring-clr_secondary " type="text " placeholder="Phone Number*">
+              <input class="p-3 rounded-full outline-none focus:ring focus:ring-clr_secondary " type="email " placeholder="Email Address*" required>
+              <input class="pb-28 px-2 pt-2 md:col-span-2 outline-none focus:ring focus:ring-clr_secondary  rounded-xl" type="text" placeholder="Write your message here">
+              <button class="md:col-span-2 bg-right_arow_color   rounded-full font-semibold py-2">Send Mail  <i class=" bg-black ml-2 text-white p-2  text-[10px] rounded-full  fa-solid fa-arrow-right"></i></button>
+          </form>
+      </div>
+
+    </section>
+
+    <!-- input part done -->
 
     </main>
     <footer>

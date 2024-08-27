@@ -22,13 +22,13 @@
                 extend: {
                     colors: {
                         primary: 'rgb(139, 195, 74)',
-                        secondary: 'rgb(17, 17, 17)',
-                        body: 'rgb(248, 246, 243)',
+                        secondary: '#f4f4f4',
                         accent: 'rgb(106, 151, 57)',
                         body_neutral: 'rgb(51, 51, 51)',
                         right_arow_color:"rgb(171, 239, 95);",
                         text_second_color :"rgb(115, 115, 115);",
                         button_2nd_color:"rgba(171, 239, 95, 0.5);",
+                        work_box1:"rgb(231, 193, 211);",
                     },
                     fontFamily: {
                         Manrope: 'Manrope',
@@ -92,17 +92,164 @@
               <div class="text-center w-11/12 mx-auto ">
                   <img class="mx-auto" src="./assets/banner.png" alt="duplex_house">
       
-                  <h1 class="text-4xl md:w-1/2 md:text-5xl  font-extrabold mx-auto">A barn house of this design has a striking appearance</h1>
+                  <h1 class="text-4xl  md:text-5xl  font-extrabold ">A barn house of this design has a striking appearance</h1>
       
-                  <p class="text-clr_pera mt-5 md:w-1/2 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                  <p class="text-text_second_color mt-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
                   <br>
-                  <button class="bg-button_2nd_color px-5 py-2 rounded-full cursor-pointer">View Details
+                  <button class="bg-button_2nd_color px-5 py-2 rounded-full ">View Details
                       <i class="font-[8px] -rotate-45 p-2 rounded-full ml-1 bg-right_arow_color text-white  fa-solid fa-arrow-right"></i>
                   </button>
                 </div>
            </section>
+          <!-- bannner part done  -->
     </header>
     <main>
+
+    <!-- work process part here -->
+       <section class="bg-secondary  mt-8 ">
+       <div class="w-11/12 mx-auto mt-4 ">
+        <div class=" text-center ">
+          <button class="  px-5 py-2 rounded-full bg-white text-black mt-4">
+            <i class="font-[8px]  p-2 rounded-full ml-1  text-black  fa-solid fa-arrow-right"></i>View Details
+        </button>
+        </div>
+        <h3 class=" text-center text-4xl md:w-1/2 md:text-5xl  font-extrabold mx-auto">Our Works Process</h3>
+        <p class="text-text_second_color text-center mt-5 md:w-1/2 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents. </p>
+        <div class=" gap-5  grid  lg:grid-cols-4 sm:grid-cols-1 ">
+          <div class="w-full shadow-xl bg-work_box1 py-5 px-5 mt-10 rounded-xl">
+            <img class="mb-2" src="./assets/vision.png" alt="">
+            <h4 class=" text-xl mb-2 font-semibold">Concept</h4>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <div class="w-full shadow-xl bg-work_box1 py-5 px-5 mt-10 rounded-xl">
+            <img class="mb-2" src="./assets/vision.png" alt="">
+            <h4 class=" text-xl mb-2 font-semibold">Concept</h4>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <div class="w-full shadow-xl bg-work_box1 py-5 px-5 mt-10 rounded-xl">
+            <img class="mb-2" src="./assets/vision.png" alt="">
+            <h4 class=" text-xl mb-2 font-semibold">Concept</h4>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <div class="w-full shadow-xl bg-work_box1 py-5 px-5 mt-10 rounded-xl">
+            <img class="mb-2" src="./assets/vision.png" alt="">
+            <h4 class=" text-xl mb-2 font-semibold">Concept</h4>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+  
+        </div>
+       </div>
+    </section> 
+
+    <!-- Read Our Articles and News part here -->
+     <section class="bg-secondary mt-8">
+     <div class="w-11/12 mx-auto">
+      <div class=" text-center ">
+        <button class="  px-5 py-2 rounded-full bg-button_2nd_color text-black mt-4">
+          <i class="font-[8px]  p-2 rounded-full ml-1  text-black  fa-solid fa-arrow-right"></i>Rinterio News
+      </button>
+      </div>
+      <h3 class=" text-center text-4xl md:w-1/2 md:text-5xl  font-extrabold mx-auto">Read Our Articles and News</h3>
+      <p class="text-text_second_color text-center mt-5 md:w-1/2 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents. </p>
+      <div class=" grid lg:grid-cols-3 gap-5 sm:grid-cols-1 ">
+       
+        <div class="card bg-base-100 w-full shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="./assets/article1.png"
+              alt="home"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body px-20 sm:px-5 ">
+            <div class="flex  text-text_second_color text-sm text-start gap-3">
+             <div class="flex  items-center gap-1">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p> July14, 2024 </p>
+             </div>
+              <div class="flex  items-center gap-1">
+                <i class="fa-regular fa-user"></i>
+              <p>By Admin</p>
+              </div>
+            </div>
+            <h2 class=" text-lg font-bold">How to choose the furniture right  of your home.</h2>
+            <p class=" text-text_second_color text-sm">The barn house captivates with its blend of rustic charm and modern. </p>
+            <div class="flex  text-start gap-2 mb-10">
+              <div class=" text-center items-center justify-center mb-1">
+              <p class=" font-semibold  text-lg">Read More</p>
+              </div>
+              <div>
+                <i class="px-2 rounded-full py-1 -rotate-45 bg-right_arow_color  text-sm fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-full shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="./assets/article2.png"
+              alt="home"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body px-20 ">
+            <div class="flex  text-text_second_color text-sm text-start gap-3">
+             <div class="flex  items-center gap-1">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p> July14, 2024 </p>
+             </div>
+              <div class="flex  items-center gap-1">
+                <i class="fa-regular fa-user"></i>
+              <p>By Admin</p>
+              </div>
+            </div>
+            <h2 class=" text-lg font-bold">How to choose the furniture right  of your home.</h2>
+            <p class=" text-text_second_color text-sm">The barn house captivates with its blend of rustic charm and modern. </p>
+            <div class="flex  text-start gap-2 mb-10">
+              <div class=" text-center items-center justify-center mb-1">
+              <p class=" font-semibold  text-lg">Read More</p>
+              </div>
+              <div>
+                <i class="px-2 rounded-full py-1 -rotate-45 bg-right_arow_color  text-sm fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-full shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="./assets/article3.png"
+              alt="home"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body px-20 ">
+            <div class="flex  text-text_second_color text-sm text-start gap-3">
+             <div class="flex  items-center gap-1">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p> July14, 2024 </p>
+             </div>
+              <div class="flex  items-center gap-1">
+                <i class="fa-regular fa-user"></i>
+              <p>By Admin</p>
+              </div>
+            </div>
+            <h2 class=" text-lg font-bold">How to choose the furniture right  of your home.</h2>
+            <p class=" text-text_second_color text-sm">The barn house captivates with its blend of rustic charm and modern. </p>
+            <div class="flex  text-start gap-2 mb-10">
+              <div class=" text-center items-center justify-center mb-1">
+              <p class=" font-semibold  text-lg">Read More</p>
+              </div>
+              <div>
+                <i class="px-2 rounded-full py-1 -rotate-45 bg-right_arow_color  text-sm fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+     </section>
+
+  
 
     </main>
     <footer>
